@@ -25,7 +25,7 @@ Description Link:https://drive.google.com/drive/folders/1zWDbCDb1Sn8GOEgCW4nipzM
 
 We use the SMTP library to send the Email to the User
 
-We have used croudsourced database for the system:
+We have used crowdsourced database for the system:
 
 https://api.covid19india.org/v2/state_district_wise.json
 https://api.covid19india.org/data.json
