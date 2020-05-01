@@ -3,12 +3,12 @@ Live COVID-19 Stats mailing system.
 
 ## Required packages
 
-smtplib
-os
-numpy
-matplotlib
-flask
-request
+	smtplib
+	os
+	numpy
+	matplotlib
+	flask
+	request
 
 ## Usuage 
 
