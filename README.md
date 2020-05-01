@@ -14,6 +14,9 @@ Live COVID-19 Stats mailing system.
 
 	python final.py
 	
+	The user ID and Password for the mail were stored in local variables on the machine and were imported through OS library
+	
+	
 ## Input 
 
 	Enter your E-mail ID:
