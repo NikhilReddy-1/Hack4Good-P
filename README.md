@@ -57,17 +57,11 @@ Live COVID-19 Stats mailing system.
 		In the smtplib. We call the SMTP_SSL protocol with the gmail server and port number 465.
 		
 		We use the smtp.login function to log into the sender e-mail ID. This function has to be passed 2 arguments which are 			the EMAIL_ID and EMAIL_PASS.
-
 		The value for both these variables should not be visible in the code for security purposes of the account holder, so the 		values of these variables are called from the OS, these values are stored as environment variables in the .bash_profile 		file on the system
-	
 		smtp.sendmail() function has to be passed 3 arguments, which are:
-
 		SENDER i.e. Sender E-mail ID,in our case it is the variable EMAIL_ID. We get the value of that code from an OS 				environment variable for security purposes of the account.
-
 		RECEIVER i.e. The user e-mail ID, we use a variable called as RECEIVER which get's it's value from user input.
-
 		msg i.e. the content of the e-mail, we get the value of this from combining two different strings which are {subject}			{body}.
-		
 		In the message body we have 2 different strings for Red Zone qualification criteria i.e. more than 15 active cases in a 		district.
 		
 		
