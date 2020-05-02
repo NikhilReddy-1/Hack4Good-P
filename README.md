@@ -62,7 +62,7 @@ Live COVID-19 Stats mailing system.
 		values of these variables are called from the OS, these values are stored as environment variables in the .bash_profile file on the system
 		
 		smtp.sendmail() function has to be passed 3 arguments, which are:
-		SENDER i.e. Sender E-mail ID,in our case it is the variable EMAIL_ID. We get the value of that code from an OS 		environment variable for security purposes of the account.
+		SENDER i.e. Sender E-mail ID,in our case it is the variable EMAIL_ID. We get the value of that code from an OS environment variable for security purposes of the account.
 		RECEIVER i.e. The user e-mail ID, we use a variable called as RECEIVER which get's it's value from user input.
 		msg i.e. the content of the e-mail, we get the value of this from combining two different strings which are {subject}{body}.
 		
